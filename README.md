@@ -1,9 +1,11 @@
 # [GitHub Stats Visualization](https://github.com/jasongaylord/github-stats)
 
+Update: 2022-01-27
+
 <a href="https://github.com/jasongaylord/github-stats">
    
-![](https://github.com/jasongaylord/github-stats/blob/master/generated/overview.svg)
-![](https://github.com/jasongaylord/github-stats/blob/master/generated/languages.svg)
+![](https://github.com/johnnysclai/github-stats/blob/master/generated/overview.svg)
+![](https://github.com/johnnysclai/github-stats/blob/master/generated/languages.svg)
 
 </a>
 
