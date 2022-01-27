@@ -3,7 +3,6 @@
 import asyncio
 import os
 import re
-import datetime
 
 import aiohttp
 
@@ -35,7 +34,6 @@ async def generate_overview(s: Stats) -> None:
         output = f.read()
 
     output = re.sub("{{ name }}", await s.name, output)
-    output = re.sub("{{ time }}", str(datetime.datetime.now()).split(" ")[0], output)
     output = re.sub("{{ stars }}", f"{await s.stargazers:,}", output)
     output = re.sub("{{ forks }}", f"{await s.forks:,}", output)
     output = re.sub("{{ contributions }}", f"{await s.total_contributions:,}",
